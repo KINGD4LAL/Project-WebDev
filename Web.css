@@ -1,20 +1,29 @@
 html,
 body {
+    background-image: url(https://images.fineartamerica.com/images-medium-large-5/starry-night-gilbert-rondilla-photography.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
     margin: 0;
     padding: 0;
 }
-.Container{
+
+.Container {
     display: grid;
     grid-template-rows: 100vh 100vh;
     grid-column: 1 / -1;
 }
-.Navigation{
+
+.Navigation {
     position: relative;
     height: 12vh;
     background-color: rgb(150, 148, 148);
     margin-left: 10%;
     margin-right: 10%;
 }
+
 .Navigation a {
     float: right;
     margin-top: 3vh;
@@ -23,63 +32,71 @@ body {
     padding: 1vh 1vw;
     text-decoration: none;
     font-size: 2.5vh;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     padding-inline: 4vw;
 }
+
 .Navigation a:hover {
     color: rgb(191, 198, 201);
 }
+
 .Navigation a.active {
     color: rgb(255, 253, 253);
 }
-.HomeTop{
+
+.HomeTop {
     display: flex;
     flex-direction: column;
     background-image: url(https://cdn.create.vista.com/api/media/medium/250531852/stock-photo-laptop-blank-screen-stationery-levitating?token=);
-    height: 100vh; 
+    height: 100vh;
     width: 100vw;
-    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
-#HomeHeader{
+
+#HomeHeader {
     position: relative;
-    top: 20vh;
+    top: 10vh;
     color: rgb(107, 103, 103);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 8vh;
     letter-spacing: 10px;
 }
-#HomeIntro{
+
+#HomeIntro {
     position: relative;
-    top: 20vh;
+    top: 10vh;
     color: rgb(107, 103, 103);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 3vh;
 }
-.ExploreButton{
-  background-color: rgb(39, 35, 35); 
-  color: #ffffffe8;
-  margin-left: 40vw;
-  margin-right: 40vw;
-  height: 5vh;
-  font-size: 2vh;
-  margin-top: 30vh;
-  border-width: 0vh;
+
+.ExploreButton {
+    background-color: rgb(39, 35, 35);
+    color: #ffffffe8;
+    margin-left: 40vw;
+    margin-right: 40vw;
+    height: 5vh;
+    font-size: 2vh;
+    margin-top: 20vh;
+    border-width: 0vh;
 }
+
 .ExploreButton:hover {
     background-color: #ffffff;
     color: rgb(53, 29, 29);
 }
-.HomeBottom{
+
+.HomeBottom {
     display: flex;
     flex-direction: row;
     background-color: rgb(255, 255, 255);
 }
-.Explore{
+
+.Explore {
     position: relative;
     height: 12vh;
     background-color: rgb(255, 255, 255);
@@ -91,12 +108,14 @@ body {
     width: 50vw;
     text-align: center;
 }
-#Subheading{
-    font-size:7vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color:rgb(107, 103, 103);
+
+#Subheading {
+    font-size: 7vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(107, 103, 103);
 }
-.HomeBottomImg{
+
+.HomeBottomImg {
     background-image: url(https://media.istockphoto.com/photos/programming-code-abstract-technology-background-of-software-developer-picture-id1224500457?k=20&m=1224500457&s=170667a&w=0&h=XzYyHReOY2K1R-rZeQIUXGHLsOJuFHLYtRL7AWR-6GY=);
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -106,44 +125,48 @@ body {
     width: 50vw;
     background-size: cover;
 }
-.YearHome{
-    background-color: rgb(255, 255, 255); 
+
+.YearHome {
+    background-color: rgb(255, 255, 255);
     color: black;
     border-color: black;
     margin-left: 10vw;
     margin-right: 10vw;
     height: 10vh;
-    width: 15vw;
+    width: 20vw;
     font-size: 2vh;
     margin-top: 10vh;
     border-width: 1px;
 }
-.YearHome:hover{
+
+.YearHome:hover {
     background-color: #000000;
     color: rgb(255, 255, 255);
 }
-.Container1stYear{
+
+.Container1stYear {
     display: grid;
     grid-template-rows: 100vh 100vh;
     grid-column: 1 / -1;
 }
-.OneTop{
+
+.OneTop {
     display: flex;
     flex-direction: column;
     background-image: url(https://www.minimaldesksetups.com/wp-content/uploads/2020/09/Featureimage.jpg);
-    height: 100vh; 
+    height: 100vh;
     width: 100vw;
-    
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
-#Title1st{
+
+#Title1st {
     text-align: center;
     position: relative;
-    color:rgb(255, 211, 158);
+    color: rgb(255, 211, 158);
     margin-top: 7vh;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Raleway', sans-serif;
@@ -154,24 +177,29 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-.PageNav{
+
+.PageNav {
     border-top: 2px solid rgba(218, 218, 218, 0.658);
     border-radius: 3vh;
 }
-#Programming{
-  width: 25vw;
-  height: 25vh;
-  padding: 20px;
-  border-radius: 40px;
+
+#Programming {
+    width: 25vw;
+    height: 25vh;
+    padding: 20px;
+    border-radius: 40px;
 }
-.OneBottom{
+
+.OneBottom {
     display: grid;
-    grid-template-rows: 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh 100vh;
-    grid-column: 1 / -1;
 }
-.Unit{
+
+.Unit {
     border: 3px solid rgba(218, 218, 218, 0.658);
-    border-radius: 3vh;
+    border-radius: 10vh;
+    width: 80vw;
+    margin-left: 5vw;
+    background-color: rgb(131, 148, 148);
     border-color: black;
     padding: 5%;
     text-align: center;
@@ -183,19 +211,43 @@ body {
     letter-spacing: 0.1em;
     text-transform: uppercase;
 }
-.a{
+
+.a {
     line-height: normal;
 }
-.b{
-    line-height: 10vh;
+
+.b {
+    line-height: 5vh;
+    text-decoration: underline;
 }
-.c{
-    line-height: 50vh;
+
+.c {
+    margin-top: 5vh;
+    text-decoration: underline;
 }
-.Quiz{
-    padding: 10%;
+
+.InfoPara {
+    margin-top: 1vh;
+    line-height: 5vh;
+    font-size: 1vh;
+    font-size: 1vw;
 }
-.QuizTitle{
+
+.InfoParaO {
+    margin-top: 1vh;
+    line-height: 4vh;
+    font-size: 1vh;
+    font-size: 1vw;
+}
+
+.Quiz {
+    margin-top: 0vh;
+    background-color:rgba(51, 136, 170, 0.352);
+
+    text-align: center;
+}
+
+.QuizTitle {
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-family: 'Raleway', sans-serif;
@@ -204,4 +256,107 @@ body {
     font-size: 3.5vw;
     letter-spacing: 0.1em;
     text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.L {
+    text-align: left;
+    font-size: 1.5vh;
+    font-size: 1.5vh;
+    text-decoration: none;
+    color: blueviolet;
+    line-height: 5vh;
+}
+
+.question {
+    margin-top: 10vh;
+    font-size: 5vh;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 10vh;
+}
+
+.answers {
+    font-size: 3vh;
+    font-weight: bold;
+    display: inline-block;
+    text-align: left;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10vh;
+    
+}
+
+#previous{
+    position:relative;
+    margin-top: 60vh;
+    margin-bottom: 10vh;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 3vh;
+    cursor: pointer;
+}
+
+#previous:hover {
+    background-color: #38a;
+}
+#next{
+    position:relative;
+    margin-top: 60vh;
+    margin-bottom: 10vh;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 3vh;
+    cursor: pointer;
+}
+#next:hover {
+    background-color: #38a;
+}
+#submit{
+    position:relative;
+    margin-top: 60vh;
+    margin-bottom: 10vh;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 3vh;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: #38a;
+}
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container {
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
 }

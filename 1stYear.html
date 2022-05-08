@@ -1,12 +1,18 @@
 <html leng="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Web.css">
+    <script defer src="Quiz.js"></script>
     <meta name="viewport" content="width=device-width, initial -scale=1.0">
     <title>Indigo</title>
 </head>
+
 <body>
     <div class="Container1stYear">
         <div class="OneTop">
@@ -18,83 +24,162 @@
             </div>
             <h1 id="Title1st">1st year</h1>
             <div class="PageNav">
-            <a href="...">
-                <img src="Programming.jpg" alt="Programming" id="Programming">
-            </a>
-            <a href="...">
-                <img src="CompArch.jpg" alt="Programming" id="Programming">
-            </a>
-            <a href="...">
-                <img src="Gradskills.png" alt="Programming" id="Programming">
-            </a>
-            <a href="...">
-                <img src="WebDev.jpg" alt="Programming" id="Programming">
-            </a>
-            <a href="...">
-                <img src="Databases.jpg" alt="Programming" id="Programming">
-            </a>
-            <a href="...">
-                <img src="Mathematics.jpg" alt="Programming" id="Programming">
-            </a>
+                <a href="...">
+                    <img src="Programming.jpg" alt="Programming" id="Programming">
+                </a>
+                <a href="...">
+                    <img src="CompArch.jpg" alt="Programming" id="Programming">
+                </a>
+                <a href="...">
+                    <img src="Gradskills.png" alt="Programming" id="Programming">
+                </a>
+                <a href="...">
+                    <img src="WebDev.jpg" alt="Programming" id="Programming">
+                </a>
+                <a href="...">
+                    <img src="Databases.jpg" alt="Programming" id="Programming">
+                </a>
+                <a href="...">
+                    <img src="Mathematics.jpg" alt="Programming" id="Programming">
+                </a>
             </div>
         </div>
         <div class="OneBottom">
-        <div class="Unit">
-        <h1 class="a">Programming</h1>
-        <p class="b">Intro</p>
-        <a class="c">Link vid</a>
+            <div><p>&nbsp &nbsp &nbsp &nbsp &nbsp</p></div>
+            <div class="Unit">
+                <h1 class="a">Programming</h1>
+                <p class="b">Introduction</p>
+                <p class="InfoPara">
+                    This unit introduces computer programming in a high-level programming language and includes principles and practice in problem-solving, program design, solution implementation and testing. You will gain practical experience in developing software using
+                    industry-standard programming languages and tools. This will act as an introduction to the basics of programming that you will need in order do well in your programming modules in the 1st year. It will cover the basic concepts of variables
+                    and data types, arrays, and functions.
+                    <br><b><u>Variables and data types</u>:</b>
+                    <br> A variable is a packet of data the store a certain value. Much like in algebra where we use symbols to represent numbers such as x=5, in this case the variable is named ‘x’ and it stores the value 5.
+                    <br> The java for this is: int x = 5;
+                    <br> We can use this variable later in the program in place of its value, for example: “Bobby is x years old”. This will be read by the program as “Bobby is 5 years old”. Variables aren’t just used so to save writing out the same value
+                    again, they can also be changed. In a years time Bobby will be 6, so we have to update x to be 6.
+                    <br> The java for this is: x = 5;
+                    <br> The program will now read the sentence “Bobby is x years old” as “Bobby is 6 years old”. We can also use variables for calculations, such as x+5, and we get an answer of 10.
+                    <br> It is not just numbers we can store in variables. The contents of the variable is defined by its data type. For x this was ‘int’ short for integer meaning at can store whole numbers. The most common data types you will be using
+                    are:
+                    <br> • int: Stores whole numbers from -2,147,483,648 to 2,147,483,647
+                    <br> • float: Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+                    <br> • string: Strings are used for storing text
+                    <br> • boolean: Stores true or false values
+                    <br> • char: Stores a single character/letter or ASCII values
+                    <br> The java for creating a variable is, Datatype Name; such as Int Age;. When creating a variable you can also give it value for that we do, Datatype Name = Value; such as Int Age = 20;. We can also change the value of a variable
+                    with the code Name = Value; such as Age = 21. However we need to assign a value that matches the data type in this case an int, we could not assign the value “Twenty” as that would be a string.
+
+
+                </p>
+                <p class="c">Learning</p>
+                <a class="L" href="https://www.w3schools.com/java/java_data_types.asp">Variables and DataTypes</a><br>
+                <a class="L" href="https://www.w3schools.com/java/java_arrays.asp">Arrays</a><br>
+                <a class="L" href="https://www.w3schools.com/java/java_methods.asp">Functions</a><br>
+            </div>
+            <div><p>&nbsp &nbsp &nbsp &nbsp &nbsp</p></div>
+
+            <div class="Unit">
+                <h1 class="a">Computer Architecture</h1>
+                <p class="b">Introduction</p>
+                <p class="InfoPara">For any computer to work, hardware is just as important as the software needed to run. This is where computer architecture is needed to provide a suitable output of the computer, when a certain input is inputted. Many little components
+                    cover a wide range of commands to create a viable user interface. The whole topic covers programming languages such as MARS and your will also be learning a piece of visual software called paradigm which will allow you to learn how
+                    your computer works. Websites to get started on this topic and the assignment are:</p>
+                <p class="c">Learning</p>
+                <a class="L" href="https://isaaccomputerscience.org/concepts/sys_arch_architecture?examBoard=all&stage=all">Computer Architecture Fundamentals</a><br>
+                <a class="L" href="https://isaaccomputerscience.org/topics/programming_languages?examBoard=all&stage=all">High-level and Low-level Languages</a><br>
+            </div>
+            <div><p>&nbsp &nbsp &nbsp &nbsp &nbsp</p></div>
+
+            <div class="Unit">
+                <h1 class="a">Graduate Skills</h1>
+                <p class="b">Introduction</p>
+                <p class="InfoPara">The graduate skills unit will just help you focus on yourself and the skills you may have or develop to increase your employability, because being employable isn't just about the degree you have, Employers would want graduates who have
+                    the desired skills for the job along with the qualifications. In the unit you will learn to evaluate a range of information sources for their appropriateness, you will learn how to develop an argument and integrate with appropriate
+                    resources. You would also learn how to reflect on your work and set targets for improvement through personal development planning. The assessment for this unit will be a 2.000 word report in which you will have to write about a debate
+                    like autonomous cars, however you will have a few options for what to do it about.</p>
+                <p class="c">Learning</p>
+                <a class="L" href="https://www.mmu.ac.uk/library/referencing-and-study-support/referencing/mmu-harvard">Harvard referencing</a>
+            </div>
+            <div><p>&nbsp &nbsp &nbsp &nbsp &nbsp</p></div>
+
+            <div class="Unit">
+                <h1 class="a">Website Development</h1>
+                <p class="b">Introduction</p>
+                <p class="InfoPara">You will be asked to create a website for your favourite musician/band. You will need to meet some technical requirements to showcase your web development skills You will be assessed on your understanding of the technologies covered throughout
+                    the Unit. You are going to learn and gain experience in the basics of HTML CSS and JAVA Script in order to help you build your first website.
+                </p>
+                <p class="c">Learning</p>
+                <a class="L" href="https://www.w3schools.com/html/html_intro.asp">HTML basics</a><br>
+                <a class="L" href="https://www.w3schools.com/css/css_intro.asp">CSS basics</a><br>
+                <a class="L" href="https://www.w3schools.com/js/">JavaScript Basics</a><br>
+                <a class="L" href="https://youtu.be/ndEFbDOsM6c">Build your first website</a><br>
+            </div>
+            <div><p>&nbsp &nbsp &nbsp &nbsp &nbsp</p></div>
+
+            <div class="Unit">
+                <h1 class="a">Databases</h1>
+                <p class="b">Introduction</p>
+                <p class="InfoPara">This unit introduces you to the use of the relational model to structure data for efficient storage and retrieval. You will gain practical experience in the construction and usage of relational databases in an industry-standard relational
+                    database management system. Your task will be to create and test a database for a theoretical company, which will require you to use methods such as building ERDs and implimenting Normalisation (RDA), as well as building a database
+                    using MySQL.
+                </p>
+                <p class="c">Learning</p>
+                <a class="L" href="https://www.youtube.com/watch?v=3HzsTAp0EHs">ERD</a><br>
+                <a class="L" href="https://www.youtube.com/watch?v=DN3zqtZ1RwI">Normalisation</a><br>
+                <a class="L" href="https://www.youtube.com/watch?v=GbdsbBbCXTo">MySQL 1</a><br>
+                <a class="L" href="https://www.youtube.com/watch?v=igWdVw4q_Sc">MySQL 2</a><br>
+            </div>
+            <div><p>&nbsp &nbsp &nbsp &nbsp &nbsp</p></div>
+
+            <div class="Unit">
+                <h1 class="a">Mathematics</h1>
+                <p class="b">Introduction</p>
+                <p class="InfoPara"> This unit provides the essential mathematical foundation for further study in computing, covering a variety of applied mathematical topics suitable for a range of computing disciplines. Topics included in this Unit:
+                    <br> 1. Sets Theory&nbsp &nbsp &nbsp &nbsp &nbsp 4. Functions
+                    <br> 2. Matrices &nbsp &nbsp &nbsp &nbsp 5. Logic: Propositions & Predicate
+                    <br> 3. Vectors &nbsp &nbsp &nbsp &nbsp &nbsp 6. Graph Theory
+                    <br><b><u>Sets</u></b>
+                    <br> A set is the mathematical model for a collecon of different elements which can be any
+                    kind of numbers, symbols, variables, or even other sets inside. There are different types of
+                    special sets. The Universal set, Power sets, Cardinality, Sets can be defined by Venn diagrams.
+                    <br><b><u>Matrices</u></b>
+                    <br> Special matrices: Square, Diagonal, Identity, Matrix Operations, Application in Computer Graphics.The definition of a matrix is a rectangular array of numbers.
+                    You can go to this website to learn how to do addition, subtraction, and multiplication operations of matrices
+                    <br><b><u>Vectors </u></b>
+                    <br> A vector is a geometric quantity that has both a magnitude (length) and direction,
+                    e.g. force, velocity, acceleration. Vectors are represented in a space by an arrow These are the following topics you need to know, Unit vectors, Magnitude, Scalar multiplication, Vector products.
+                    <br><b><u>Functions</u></b>
+                    <br> You need to know the 5 properties of functions for the classification
+                    <br><b><u>Logic</u></b>
+                    <br> logic is a statement that can be assigned a value of true and false but not both. To explain this there is
+                    an example, *A dog is an animal'. This statement can be either true or false, cannot be true and false.
+                    There are various topics related that are important for this unit that are Logical Connectives, truth
+                    tables, conditional connective, Biconditional or Equivalence etc.
+                    <br><b><u>Graph Theory</u></b>
+                    <br> A graph G, consists of a set of vertices, V, and a set of edges, E, that join pairs
+                    of elements in the set V. A vertex is represented by a point and an edge is represented by a
+                    line or curve. Topics need to know about Matrix Representation, The adjacency matrix, The incidence matrix.
+                </p>
+                <p class="c">Learning</p>
+                <a class="L" href="https://revisionmaths.com/gcse-maths-revision/algebra/matrices">Matrices</a><br>
+                <a class="L" href="https://www.youtube.com/watch?v=VFRW0f0XUU8">Vectors</a><br>
+                <a class="L" href="https://www.youtube.com/watch?v=bp46gL3WcyQ">Functions</a><br>
+                <a class="L" href="https://www.youtube.com/watch?v=bUnq_lvvFcE">Graph Theory</a><br>
+            </div>
+            <div class="Quiz">
+                <h1 class="QuizTitle">Year Quiz</h1>
+                <div class="quiz-container">
+                    <div id="quiz"></div>
+                </div>
+                <button id="previous">Previous Question</button>
+                <button id="next">Next Question</button>
+                <button id="submit">Submit Quiz</button>
+                <div id="results"></div>
+            </div>
         </div>
-        <div class="Quiz">
-        <h1 class="QuizTitle">Quiz</h1>
-        <p>Quiz here</p>
-        </div>
-        <div class="Unit">
-            <h1 class="a">Computer Architecture</h1>
-            <p class="b">Intro</p>
-            <a class="c">Link vid</a>
-        </div>
-        <div class="Quiz">
-            <h1 class="QuizTitle">Quiz</h1>
-            <p>Quiz here</p>
-        </div>
-        <div class="Unit">
-            <h1 class="a">Graduate Skills</h1>
-            <p class="b">Intro</p>
-            <a class="c">Link vid</a>
-        </div>
-        <div class="Quiz">
-            <h1 class="QuizTitle">Quiz</h1>
-            <p>Quiz here</p>
-        </div>
-        <div class="Unit">
-            <h1 class="a">Website Development</h1>
-            <p class="b">Intro</p>
-            <a class="c">Link vid</a>
-        </div>
-        <div class="Quiz">
-            <h1 class="QuizTitle">Quiz</h1>
-            <p>Quiz here</p>
-        </div>
-        <div class="Unit">
-            <h1 class="a">Databases</h1>
-            <p class="b">Intro</p>
-            <a class="c">Link vid</a>
-        </div>
-        <div class="Quiz">
-            <h1 class="QuizTitle">Quiz</h1>
-            <p>Quiz here</p>
-        </div>
-        <div class="Unit">
-            <h1 class="a">Mathematics</h1>
-            <p class="b">Intro</p>
-            <a class="c">Link vid</a>
-        </div>
-        <div class="Quiz">
-            <h1 class="QuizTitle">Quiz</h1>
-            <p>Quiz here</p>
-        </div>
-    </div>
     </div>
 
 </body>
+
 </html>
